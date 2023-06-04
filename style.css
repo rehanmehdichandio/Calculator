@@ -60,7 +60,7 @@ form input .equal {
 form input.operator {
     color: #33ffd8;
 }
-@media screen and (min-width:300px;){
+@media screen and (min-width:400px;){
     input{
     width:20%;
     }
