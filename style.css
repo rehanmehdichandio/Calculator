@@ -4,33 +4,27 @@
     font-family: 'Poppins', 'Sans-serif';
     box-sizing: border-box;
 }
-
 body {
     background-color: #e3f9ff;
 }
-
 .container {
     margin-top: 30px;
     width: 100%;
-    height:80%;
     height: vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:auto;
 }
-
 .calculator {
     background-color: #3a4452;
     padding: 20px;
     border-radius: 10px;
 }
-
 .calculator form input {
     border: 0;
     outline: 0;
-    width: 15%;
-    height: 10%;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
     box-shadow: -8px -8px 25px rgb(255, 255, 255, 0.1), 5px 5px 15px rgb(0, 0, 0, 0.2);
     background: transparent;
@@ -39,20 +33,17 @@ body {
     cursor: pointer;
     margin: 10px;
 }
-
 form .display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
 }
-
 form .display input {
     text-align: right;
     flex: 1;
     font-size: 45px;
     box-shadow: none;
 }
-
 form input .equal {
     width: 140px;
 }
@@ -60,9 +51,4 @@ form input .equal {
 form input.operator {
     color: #33ffd8;
 }
-@media screen and (min-width:400px;){
-    input{
-    width:15%;
-    }
 }
-
