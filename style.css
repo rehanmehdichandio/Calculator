@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #e3f9ff;
+    background-color: #60495a;
 }
 .container {
     margin-top: 30px;
@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 .calculator {
-    background-color: #3a4452;
+    background-color: #3F3244;
     padding: 20px;
     border-radius: 10px;
 }
